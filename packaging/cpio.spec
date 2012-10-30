@@ -6,7 +6,6 @@ Summary:        A GNU archiving program
 Url:            http://www.gnu.org/software/cpio/
 Group:          Applications/Archiving
 Source0:        ftp://ftp.gnu.org/gnu/cpio/cpio-%{version}.tar.gz
-Source1001:     cpio.manifest
 BuildRequires:  autoconf
 
 %description
@@ -28,7 +27,6 @@ Install cpio if you need a program to manage file archives.
 
 
 %build
-cp %{SOURCE1001} .
 export ac_cv_prog_cc_c99=no
 %configure --disable-nls
 
@@ -44,7 +42,6 @@ rm -rf %{buildroot}%{_prefix}/libexec/rmt
 %docs_package
 
 %files
-%manifest cpio.manifest
 %doc COPYING
 %{_bindir}/*
 
