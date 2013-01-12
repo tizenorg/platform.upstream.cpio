@@ -42,6 +42,6 @@ rm -rf %{buildroot}%{_prefix}/libexec/rmt
 %docs_package
 
 %files
-%doc COPYING
+%license COPYING
 %{_bindir}/*
 

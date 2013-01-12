@@ -1,3 +1,6 @@
+* Fri Jan 11 2013 Anas Nashif <anas.nashif@intel.com> submit/trunk/20130112.050652@4193eb5
+- Set license file as %license
+
 * Fri Jan 11 2013 Anas Nashif <anas.nashif@intel.com> upstream/2.11@4dbcc78
 - Fix build with missing gets declaration
 
