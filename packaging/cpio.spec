@@ -4,7 +4,7 @@ Release:        3
 License:        GPL-3.0+
 Summary:        A GNU archiving program
 Url:            http://www.gnu.org/software/cpio/
-Group:          Applications/Archiving
+Group:          Base/Tools
 Source0:        ftp://ftp.gnu.org/gnu/cpio/cpio-%{version}.tar.gz
 BuildRequires:  autoconf
 
