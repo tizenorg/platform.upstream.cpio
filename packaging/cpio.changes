@@ -1,3 +1,6 @@
+* Mon Mar 18 2013 Anas Nashif <anas.nashif@intel.com> submit/trunk/20130112.050725@4f884f5
+- Fixed package group
+
 * Fri Jan 11 2013 Anas Nashif <anas.nashif@intel.com> submit/trunk/20130112.050652@4193eb5
 - Set license file as %license
 
