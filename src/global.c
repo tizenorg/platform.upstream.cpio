@@ -185,7 +185,7 @@ unsigned int warn_option = 0;
 bool to_stdout_option = false;
 
 /* The name this program was run with.  */
-char *program_name;
+extern char *program_name;
 
 /* A pointer to either lstat or stat, depending on whether
    dereferencing of symlinks is done for input files.  */
